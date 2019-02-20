@@ -5,7 +5,8 @@ to install, download the repository, unzip and run:<br>
 chmod +x ./install_debian_n900.sh
 ./install_debian_n900.sh -imagename- <br>
 where -imagename- is one of the .img files in the repository.<br>
-root password is changeit
+root password is changeit<br><br>
+CAUTION! Your MyDocs folder will be wiped!!!
 <br>
 <br>
 Image download:<br>
