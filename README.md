@@ -4,8 +4,14 @@ Installer and image for Debian on the Nokia N900<br>
 to install, download the repository, unzip and run:<br>
 chmod +x ./install_debian_n900.sh<br>
 ./install_debian_n900.sh -imagename- <br>
-where -imagename- is one of the .img files in the repository.<br>
+where -imagename- is one of the .img files in the repository.<br><br>
 root password is changeit<br><br>
+Flaws:<br>
+screen callibration is missing (you have to run display.sh manually)<br>
+no phone is installed<br>
+no network manager is installed<br>
+fn-key not mapped yet<br>
+windowmanager is not autostarting<br><br>
 CAUTION! Your MyDocs folder will be wiped!!!
 <br>
 <br>
