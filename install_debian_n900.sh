@@ -1,7 +1,7 @@
 IMAGENAME=$1
 dd if=./$IMAGENAME of=/dev/mmcblk0p1
 resize2fs /dev/mmcblk0p1
-apt-get -f install u-boot-flasher
+apt-get -y -f install u-boot-flasher
 mkdir /etc/bootmenu.d
 
 cat <<. > /etc/bootmenu.d/Debian.item
